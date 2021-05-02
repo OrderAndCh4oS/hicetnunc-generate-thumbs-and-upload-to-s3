@@ -1,0 +1,11 @@
+.idea
+
+.env
+
+node_modules
+out
+
+downloads
+src-images
+
+dist
