@@ -392,5 +392,4 @@ const walletIds = ['tz1VgpmwW66LCbskjudK54Zp96vKn2cHjpGN'];
     } catch(e) {
         console.log(e);
     }
-    // Todo: upload images to S3
 })();
