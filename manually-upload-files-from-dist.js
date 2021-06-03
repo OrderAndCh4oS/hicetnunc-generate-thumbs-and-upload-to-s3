@@ -40,7 +40,7 @@ const isFileInS3 = async (fileName) => {
 };
 
 const objktIds = [
-    107414
+    111984
 ];
 
 (async() => {
