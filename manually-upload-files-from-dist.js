@@ -40,13 +40,13 @@ const isFileInS3 = async (fileName) => {
 };
 
 const objktIds = [
-    111984
+    115996
 ];
 
 (async() => {
     for(const objktId of objktIds) {
-    const fileExists = await isFileInS3(`${objktId}.png`);
-    if(!fileExists) await uploadToS3(`${objktId}.png`);
-        // await uploadToS3(`${objktId}.png`);
+    // const fileExists = await isFileInS3(`${objktId}.png`);
+    // if(!fileExists) await uploadToS3(`${objktId}.png`);
+        await uploadToS3(`${objktId}.png`);
     }
 })();
